@@ -1,0 +1,21 @@
+{
+  "require": {
+    "ext-pdo": "*",
+    "symfony/dotenv": "^6.1",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "controllers\\": "controllers/",
+      "models\\": "models/",
+      "views\\": "views/",
+
+
+      "base\\": "core/base",
+      "database\\": "core/database",
+      "patterns\\": "core/patterns",
+      "routing\\": "core/routing"
+
+    }
+  }
+}
